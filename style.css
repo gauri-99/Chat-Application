@@ -1,0 +1,81 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(241, 247, 248), rgb(36, 13, 245));
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 80px;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 0;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    height: 70vh;
+    border: 3px solid;
+    border-radius: 25px;
+    font-weight: bold;
+    overflow-y: auto;
+}
+
+.msg{
+    background-color: rgb(164, 167, 177);
+    width: 20%;
+    margin: 10px 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.center{
+    margin: auto;
+    clear: both;
+    background-color: rgb(120, 121, 128);
+    margin-top: 5px;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.type-box{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.msg-input{
+    width: 50vw;
+    height: 30px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+.btn{
+    height: 38px;
+    width: 50px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: rgb(8, 16, 116);
+}
